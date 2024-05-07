@@ -1,5 +1,5 @@
 <template>
-    <div class="flex justify-center z-50">
+    <div class="flex justify-center z-10">
         <div class="fixed bottom-10 w-full max-w-screen-xl mx-auto px-4 flex items-center justify-around">
             <div class="bg-gray-800 flex items-center justify-around p-2 rounded-full shadow-lg text-white">
                 <NuxtLink to="/" class="px-1 hover:text-white cursor-pointer flex items-center">

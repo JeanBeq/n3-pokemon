@@ -1,5 +1,5 @@
 <template>
-    <Navbar class="z-50"/>
+    <Navbar/>
     <slot />
 </template>
 
