@@ -12,8 +12,13 @@
     const team = useState('team', () => [])
 
     function addToTeam() {
-        if (team.value.length < 6) {
+        if (team.value.length < 6 && !isInTeam(props.pokemon.id)) 
+        {
             team.value.push(props.pokemon);
         }
+    }
+
+    function isInTeam(id) {
+        return team.value.find(pokemon => pokemon.id === id) !== undefined;
     }
 </script>
