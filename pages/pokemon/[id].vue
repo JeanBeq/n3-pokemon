@@ -1,5 +1,5 @@
 <template>
-    <h1 class="mt-10 text-2xl text-center font-bold"></h1>
+    <h1 class="mt-10 text-2xl text-center font-bold">Pokemon {{ pokemon.name }}</h1>
     <div class="max-w-lg mx-auto bg-white rounded-lg shadow-md overflow-hidden">
       <img :src="pokemon.image" :alt="pokemon.name" class="w-full h-auto" />
       <div class="p-6">
