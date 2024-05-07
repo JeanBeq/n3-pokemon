@@ -1,6 +1,6 @@
 <template>
-    <Navbar />
-    <Slot />
+    <Navbar class="z-50"/>
+    <slot />
 </template>
 
 <script setup>
